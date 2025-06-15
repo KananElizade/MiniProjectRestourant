@@ -1,0 +1,22 @@
+﻿@model MenuItem
+
+<h1>@Model.Name</h1>
+<p>@Model.Price</p>
+<p>@Model.Category?.Name</p>
+<p>@Model.Description</p>
+<p>@Model.IsAvaliable</p>
+
+
+
+<br />
+<p>Cover image</p>
+<img src="~/images/product/@Model.ImageUrl" width="100" height="100" />
+
+<p>Images</p>
+
+@foreach (var item in Model.Images)
+{
+    <img src="~/images/product/@item.Name" width="100" height="100" />
+}
+
+

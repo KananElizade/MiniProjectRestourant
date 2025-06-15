@@ -1,0 +1,231 @@
+﻿@{
+    Layout = null;
+}
+@Html.AntiForgeryToken()
+@model RegisterViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="~/assets/css/login.css" />
+    <style>
+        /* --- Pro design improvements for register page --- */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+            background-blend-mode: overlay;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100vw;
+            min-height: 100vh;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+            filter: brightness(0.5) blur(2px) grayscale(0.1);
+            pointer-events: none;
+            animation: bgZoom 20s infinite alternate ease-in-out;
+        }
+
+  
+
+        .main {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+
+        .login {
+            background: rgba(255,255,255,0.18);
+            backdrop-filter: blur(18px) saturate(200%);
+            -webkit-backdrop-filter: blur(18px) saturate(200%);
+            border-radius: 24px;
+            box-shadow: 0 12px 48px 0 rgba(31,38,135,0.18), 0 0 0 2px #fff2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 420px;
+            min-width: 320px;
+            padding: 56px 40px 40px 40px;
+            animation: fadeInUp 1.2s cubic-bezier(.39,.575,.56,1.000) both;
+            transition: box-shadow 0.3s, transform 0.2s;
+        }
+
+            .login:hover {
+                box-shadow: 0 16px 48px 0 rgba(255,75,43,0.25), 0 0 60px #ff4b2b33;
+                /* Removed shaking effect: no scale or rotate */
+            }
+
+ 
+
+        .login label {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #FF4B2B;
+            margin-bottom: 18px;
+            letter-spacing: 3px;
+            text-shadow: 0 2px 16px #fff8, 0 0 2px #FF4B2B44;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .login input {
+            width: 100%;
+            padding: 14px 18px;
+            margin: 12px 0;
+            border: 1.5px solid #eee;
+            border-radius: 10px;
+            font-size: 1.12rem;
+            background: rgba(255,255,255,0.85);
+            box-shadow: 0 2px 8px rgba(31,38,135,0.04);
+            transition: box-shadow 0.2s, background 0.2s;
+        }
+
+            .login input:hover, .login input:focus {
+                background: #fffbe7;
+                border: 1.5px solid #fcb045;
+                box-shadow: 0 0 0 2px #fcb04555;
+                transition: background 0.2s, border 0.2s, box-shadow 0.2s;
+            }
+
+        .login span[asp-validation-for] {
+            color: #FF4B2B;
+            font-size: 0.98rem;
+            margin-bottom: 6px;
+            display: block;
+            min-height: 18px;
+            text-align: left;
+        }
+
+        .login button {
+            margin-top: 30px;
+            width: 100%;
+            padding: 14px 0;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #FF4B2B 0%, #FF416C 100%);
+            color: #fff;
+            font-size: 1.18rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            cursor: pointer;
+            box-shadow: 0 4px 18px rgba(255,75,43,0.13);
+            transition: background 0.2s, transform 0.1s;
+        }
+
+            .login button:hover {
+                background: linear-gradient(90deg, #FF416C 0%, #FF4B2B 100%);
+                transform: translateY(-3px) scale(1.04);
+                box-shadow: 0 8px 32px #fd1d1d33;
+            }
+
+        .insta-cover {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 36px;
+            gap: 10px;
+            animation: fadeInUp 1.2s cubic-bezier(.39,.575,.56,1.000) both;
+        }
+
+        .insta-cover-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            box-shadow: 0 6px 24px #833ab455, 0 2px 12px #0005;
+            border: 2.5px solid #fff;
+            background: #fff;
+            transition: transform 0.25s, box-shadow 0.25s, border 0.2s;
+            object-fit: cover;
+        }
+
+        .insta-cover-link:hover .insta-cover-img {
+            /* Removed shaking effect: no scale or rotate */
+            box-shadow: 0 12px 40px #fd1d1d55, 0 2px 12px #0007;
+            border: 2.5px solid #FF4B2B;
+        }
+
+        .insta-cover-label {
+            font-size: 1.12rem;
+            color: #833ab4;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-shadow: 0 1px 8px #fff8;
+            margin-top: 4px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* Add Instagram icon to the top right and hover effect for input fields */
+        .insta-header-link {
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            font-size: 2.2rem;
+            background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+            border-radius: 50%;
+            padding: 10px 13px;
+            box-shadow: 0 2px 12px #0005;
+            z-index: 10;
+            transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+            .insta-header-link:hover {
+                color: #ffecd2;
+                /* Removed shaking effect: no scale or rotate */
+                box-shadow: 0 6px 24px #fd1d1d55;
+            }
+    </style>
+</head>
+<body>
+    <a href="https://www.instagram.com/mangalsteakhousezugulba?igsh=MTg2eG5qdG9rYnQ5eQ==" target="_blank" class="insta-header-link" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <video class="video-bg" autoplay loop muted playsinline>
+        <source src="https://videos.pexels.com/video-files/6261647/6261647-hd_1920_1080_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="main">
+        <div class="login">
+            <form method="post">
+                <label for="chk" aria-hidden="true">Register</label>
+                <input asp-for="Username" placeholder="UserName" required="">
+                <span asp-validation-for="Username"></span>
+                <input asp-for="FullName" placeholder="FullName" required="">
+                <span asp-validation-for="FullName"></span>
+                <input asp-for="Email" placeholder="Email" required="">
+                <span asp-validation-for="Email"></span>
+                <input asp-for="Password" placeholder="Password" required="">
+                <span asp-validation-for="Password"></span>
+                <input asp-for="ConfirmPassword" placeholder="Confirm Password" required="">
+                <span asp-validation-for="ConfirmPassword"></span>
+                <div asp-validation-summary="ModelOnly"></div>
+                <button>Sign up</button>
+            </form>
+            <div class="insta-cover">
+                <a href="https://www.instagram.com/mangalsteakhousezugulba?igsh=MTg2eG5qdG9rYnQ5eQ==" target="_blank" class="insta-cover-link" title="Instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="insta-cover-img">
+                </a>
+                <span class="insta-cover-label">Follow us on Instagram</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

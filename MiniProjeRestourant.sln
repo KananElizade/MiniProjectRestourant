@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restourant", "Restaurant\Restourant.csproj", "{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailing", "..\..\Pb304PetShop\Pb304PetShop\Mailing\Mailing.csproj", "{AE4BBF98-D3E7-DE52-1EBD-11C4F8C87E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4BBF98-D3E7-DE52-1EBD-11C4F8C87E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4BBF98-D3E7-DE52-1EBD-11C4F8C87E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4BBF98-D3E7-DE52-1EBD-11C4F8C87E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4BBF98-D3E7-DE52-1EBD-11C4F8C87E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCA716F0-EB77-4C01-A11E-9717F6C0D157}
+	EndGlobalSection
+EndGlobal

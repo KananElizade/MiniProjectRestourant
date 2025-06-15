@@ -1,0 +1,2373 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Restourant.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Restourant.tl8l7a3es8.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\css\\demo.css",
+      "PackagePath": "staticwebassets\\admin\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\js\\config.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\admin\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\external.css",
+      "PackagePath": "staticwebassets\\assets\\css\\external.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\font\\ytp-regular.html",
+      "PackagePath": "staticwebassets\\assets\\css\\font\\ytp-regular.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Linearicons-Free54e9.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Linearicons-Free54e9.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Linearicons-Free54e9.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Linearicons-Free54e9.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Linearicons-Free54e9.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Linearicons-Free54e9.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Linearicons-Free54e9.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Linearicons-Free54e9.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Linearicons-Free54e9.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Linearicons-Free54e9.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Linearicons-Freed41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Linearicons-Freed41d.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\fonts\\Stroke-Gap-Icons.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Stroke-Gap-Icons.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\polina.html",
+      "PackagePath": "staticwebassets\\assets\\css\\polina.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\register.css",
+      "PackagePath": "staticwebassets\\assets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\style-arabic.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-arabic.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\style-dark.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-dark.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\style-rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\fontawesome-webfont5b62.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont5b62.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-2.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-3.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-4.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular-5.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular-5.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regulard41d.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\22.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\25.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\26.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\27.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\28.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\29.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\30.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\30.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\patterns\\bg-body.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\patterns\\bg-body.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\arrow-down-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\arrow-down-dark.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\arrow-down-dark2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\arrow-down-dark2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\arrow-down-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\arrow-down-white.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\arrow-down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\arrow-down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\arrow-up-theme.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\arrow-up-theme.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\arrow-up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\arrow-up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-10down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-10down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-10up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-10up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-11.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-13.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-14down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-14down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-14up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-14up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-2down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-2down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-2up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-2up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-3down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-3down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-3up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-3up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-4down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-4down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-4up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-4up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-5down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-5down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-5up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-5up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-6down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-6down.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-6up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-6up.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-9.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-header.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-header.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-left.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-left.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\background\\shapes\\shape-right.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\shapes\\shape-right.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\banners\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\grid\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\small\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\small\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\small\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\small\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\small\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\small\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\standard\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\standard\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\standard\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\standard\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\standard\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\standard\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\standard\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\standard\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\thumb\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\thumb\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\blog\\thumb\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\thumb\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\17.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\17.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\18.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\19.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\19.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\20.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\20.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\21.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\21.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\22.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\22.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\clients\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\8.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\counter\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\counter\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\favicon\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon\\favicon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\gallery\\full\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\full\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\heading\\Signiture.html",
+      "PackagePath": "staticwebassets\\assets\\images\\heading\\Signiture.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\heading\\signiture-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\heading\\signiture-white.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\heading\\signiture.png",
+      "PackagePath": "staticwebassets\\assets\\images\\heading\\signiture.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\10.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\11.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\12.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\13.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\14.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\15.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\8.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\icons\\9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\9.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\22.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\28.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\29.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\30.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\30.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\31.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\31.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\32.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\32.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\33.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\33.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\34.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\34.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\35.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\35.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\36.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\36.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\37.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\37.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\38.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\38.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\39.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\39.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\demos\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\icons\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\icons\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\icons\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\icons\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\icons\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\icons\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\icons\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\icons\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\icons\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\icons\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\landing\\icons\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\landing\\icons\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\25.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\26.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\27.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\28.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\29.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\30.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\30.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\31.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\31.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\32.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\32.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\33.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\33.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\34.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\34.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\35.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\35.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\36.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\36.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\37.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\37.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\38.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\38.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\dish\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\dish\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\22.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\25.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\26.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\27.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\28.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\29.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\30.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\30.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\31.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\31.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\32.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\32.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\33.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\33.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\34.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\34.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\35.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\35.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\36.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\36.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\37.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\37.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\38.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\38.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\39.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\39.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\40.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\40.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\41.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\41.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\42.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\42.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\gallery\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\22.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-board\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-board\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\22.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\25.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\26.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\27.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\28.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\29.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\30.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\30.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\31.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\31.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\32.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\32.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\menu-grid\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\menu-grid\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\simple-banner\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\simple-banner\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\simple-banner\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\simple-banner\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\simple-banner\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\simple-banner\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\simple-banner\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\simple-banner\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\simple-banner\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\simple-banner\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\simple-banner\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu\\simple-banner\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\page-title\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\full\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\full\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\grid\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\grid\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\thumb\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\thumb\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\thumb\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\thumb\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\thumb\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\thumb\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\thumb\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\thumb\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\thumb\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\thumb\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\shop\\thumb\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\thumb\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\left-arrow-bg-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\left-arrow-bg-dark.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\left-arrow-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\left-arrow-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\left-arrow-dark.html",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\left-arrow-dark.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\left-arrow-wide.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\left-arrow-wide.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\left-arrow.html",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\left-arrow.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\right-arrow-bg-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\right-arrow-bg-dark.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\right-arrow-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\right-arrow-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\right-arrow-dark.html",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\right-arrow-dark.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\right-arrow-wide.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\right-arrow-wide.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\arrows\\right-arrow.html",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\arrows\\right-arrow.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\sliders\\slide-bg\\knife-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sliders\\slide-bg\\knife-img.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\specials\\popup\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\specials\\popup\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\specials\\popup\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\specials\\popup\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\specials\\popup\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\specials\\popup\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\specials\\popup\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\specials\\popup\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\specials\\popup\\5.html",
+      "PackagePath": "staticwebassets\\assets\\images\\specials\\popup\\5.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\specials\\popup\\6.html",
+      "PackagePath": "staticwebassets\\assets\\images\\specials\\popup\\6.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\tabs\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs\\7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\thumb\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\thumb\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\thumb\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\thumb\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\team\\thumb\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\thumb\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\test.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\test.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\testimonial\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\testimonial\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\testimonial\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\testimonial\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\testimonial\\chef-hat.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\chef-hat.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\testimonial\\icon5.html",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\icon5.html"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\js\\functions.js",
+      "PackagePath": "staticwebassets\\assets\\js\\functions.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\js\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\js\\plugins\\jquery.gmap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.gmap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\js\\rsconfig.js",
+      "PackagePath": "staticwebassets\\assets\\js\\rsconfig.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\assets\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\assets\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\assets\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\assets\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\assets\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\css\\closedhand.cur",
+      "PackagePath": "staticwebassets\\assets\\revolution\\css\\closedhand.cur"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\assets\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\assets\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\css\\openhand.cur",
+      "PackagePath": "staticwebassets\\assets\\revolution\\css\\openhand.cur"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\assets\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\assets\\revolution\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\assets\\revolution\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\assets\\revolution\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\assets\\revolution\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\jquery.themepunch.revolution.min838f.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\jquery.themepunch.revolution.min838f.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\revolution\\js\\jquery.themepunch.tools.min838f.js",
+      "PackagePath": "staticwebassets\\assets\\revolution\\js\\jquery.themepunch.tools.min838f.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Restourant.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Restourant.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Restourant.props",
+      "PackagePath": "build\\Restourant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Restourant.props",
+      "PackagePath": "buildMultiTargeting\\Restourant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Restourant.props",
+      "PackagePath": "buildTransitive\\Restourant.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,43 @@
+﻿@{
+    BookTableViewModel bookTableViewModel = Model;
+}
+
+<h2>Create Booking</h2>
+
+<form asp-action="Create" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="@bookTableViewModel.CustomerName" class="control-label">Customer Name</label>
+        <input asp-for="@bookTableViewModel.CustomerName" class="form-control" />
+        <span asp-validation-for="@bookTableViewModel.CustomerName" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="@bookTableViewModel.Phone" class="control-label">Phone Number</label>
+        <input asp-for="@bookTableViewModel.Phone" class="form-control" />
+        <span asp-validation-for="@bookTableViewModel.Phone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@bookTableViewModel.BookingDate" class="control-label">Booking Date & Time</label>
+        <input asp-for="@bookTableViewModel.BookingDate" class="form-control" type="datetime-local" />
+        <span asp-validation-for="@bookTableViewModel.BookingDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@bookTableViewModel.NumberOfGuests" class="control-label">Number of Guests</label>
+        <input asp-for="@bookTableViewModel.NumberOfGuests" class="form-control" type="number" min="1" max="20" />
+        <span asp-validation-for="@bookTableViewModel.NumberOfGuests" class="text-danger"></span>
+    </div>
+
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Book Table" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
