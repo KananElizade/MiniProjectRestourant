@@ -8140,7 +8140,7 @@ td.cart-product-quantity {
 	padding: 0;
 }
 
-/* Best Products */
+/* Best MenuItems */
 .widget-best-product .best-product .product-img {
 	width: 49px;
 	height: 49px;
@@ -8292,40 +8292,40 @@ td.cart-product-quantity {
 }
 
 /* Recent Product Widegt */
-.widget-recent-products .product {
+.widget-recent-MenuItems .product {
 	position: relative;
 	margin-bottom: 24px;
 	min-height: 50px;
 	border-bottom: 1px dashed #dedede;
 }
 
-.widget-recent-products .product:last-of-type {
+.widget-recent-MenuItems .product:last-of-type {
 	margin-bottom: 0;
 	border-bottom: none;
 	padding-bottom: 0;
 }
 
-.widget-recent-products .product img {
+.widget-recent-MenuItems .product img {
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 
-.widget-recent-products .product .product-desc {
+.widget-recent-MenuItems .product .product-desc {
 	position: relative;
 	margin-left: 65px;
 	padding-bottom: 18px;
 }
 
-.widget-recent-products .product:last-of-type .product-desc {
+.widget-recent-MenuItems .product:last-of-type .product-desc {
 	padding-bottom: 0;
 }
 
-.widget-recent-products .product .product-title {
+.widget-recent-MenuItems .product .product-title {
 	margin-bottom: 5px;
 }
 
-.widget-recent-products .product .product-title a {
+.widget-recent-MenuItems .product .product-title a {
 	color: #333333;
 	font-size: 14px;
 	font-weight: 700;
@@ -8333,11 +8333,11 @@ td.cart-product-quantity {
 	text-transform: capitalize;
 }
 
-.widget-recent-products .product .product-title a:hover {
+.widget-recent-MenuItems .product .product-title a:hover {
 	color: #bb9356;
 }
 
-.widget-recent-products .product .product-desc .product-meta {
+.widget-recent-MenuItems .product .product-desc .product-meta {
 	font-family: 'Poppins', sans-serif;
 	color: #bb9356;
 	font-size: 13px;

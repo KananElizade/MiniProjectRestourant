@@ -8,6 +8,8 @@ using Restourant.DataContext.Entities;
 using Restourant.Areas.Admin.Models;
 using Restourant.DataContext.Entities;
 using Restourant.DataContext;
+using Restaurant.Controllers;
+using Restourant.Areas.Admin.Extensions;
 
 namespace Restourant.Areas.Admin.Controllers
 {
@@ -23,114 +25,286 @@ namespace Restourant.Areas.Admin.Controllers
         }
 
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var menuItems = _dbContext.MenuItems
-                .Include(m => m.Category)
-                .ToList();
+            var MenuItems = await _dbContext.MenuItems
+                .Include(x => x.Category)
+                .OrderByDescending(x => x.Id)
+                .ToListAsync();
 
-            return View(menuItems);
+            return View(MenuItems);
         }
 
-
-        public IActionResult Create()
+        public async Task<IActionResult> Details(int id)
         {
-            ViewBag.Categories = new SelectList(_dbContext.Categories, "Id", "Name");
-            return View();
+            var product = await _dbContext.MenuItems
+                .Include(x => x.Category)
+                .Include(x => x.Images)
+                .SingleOrDefaultAsync(x => x.Id == id);
+
+            return View(product);
         }
 
+        public async Task<IActionResult> Create()
+        {
+            var categories = await _dbContext.Categories.ToListAsync();
+            var categoryListItems = categories.Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
+
+            var productCreateModel = new MenuItemCreateViewModel
+            {
+                Name = "",
+                CategorySelectListItems = categoryListItems,
+                ImagesFiles = null,
+                Price = 0,
+                ImageUrl = "",
+                Description = "",
+
+            };
+
+            return View(productCreateModel);
+        }
 
         [HttpPost]
-        public IActionResult Create(MenuItemCreateViewModel model)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(MenuItemCreateViewModel model)
         {
+            var categories = await _dbContext.Categories.ToListAsync();
+            var categoryListItems = categories.Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
+
+
+
             if (!ModelState.IsValid)
             {
-                model.Categories = _dbContext.Categories.ToList();
+                model.CategorySelectListItems = categoryListItems;
+
                 return View(model);
             }
 
-            var menuItem = new MenuItem
+            if (!model.ImagesFiles.IsImage())
+            {
+                ModelState.AddModelError("ImageFile", "Sekil secilmelidir!");
+                model.CategorySelectListItems = categoryListItems;
+
+                return View(model);
+            }
+
+            if (!model.ImagesFiles.IsAllowedSize(1))
+            {
+                ModelState.AddModelError("ImageFile", "Sekil hecmi 1mb-dan cox ola bilmez");
+                model.CategorySelectListItems = categoryListItems;
+
+                return View(model);
+            }
+
+            var productImages = new List<MenuItemImage>();
+
+            bool isValidImages = true;
+
+            foreach (var item in model.ImageFiles ?? [])
+            {
+                if (!item.IsImage())
+                {
+                    isValidImages = false;
+                    ModelState.AddModelError("", $"{item.FileName}-sekil olmalidir");
+                }
+
+                if (!item.IsAllowedSize(1))
+                {
+                    isValidImages = false;
+                    ModelState.AddModelError("", $"{item.FileName}-hecmi 1 mb-dan cox olmamalidir");
+                }
+            }
+
+            if (!isValidImages)
+            {
+                model.CategorySelectListItems = categoryListItems;
+
+                return View(model);
+            }
+
+            foreach (var item in model.ImageFiles ?? [])
+            {
+                var unicalFileName = await item.GenerateFile(FilePathConstants.MenuIteamPath);
+                productImages.Add(new MenuItemImage { Name = unicalFileName });
+            }
+
+            var unicalCoverImageFileName = await model.ImagesFiles.GenerateFile(FilePathConstants.MenuIteamPath);
+
+            var product = new MenuItem
             {
                 Name = model.Name,
-                Description = model.Description,
                 Price = model.Price,
+                Images = productImages,
+                CategoryId = model.CategoryId,
+                Description = model.Description,
                 ImageUrl = model.ImageUrl,
-                IsAvaliable = model.IsAvailable,
-                CategoryId = model.CategoryId
             };
 
-            _dbContext.MenuItems.Add(menuItem);
-            _dbContext.SaveChanges();
+            await _dbContext.MenuItems.AddAsync(product);
+            await _dbContext.SaveChangesAsync();
 
-            return RedirectToAction("Index");
-        }
-
-
-        public IActionResult Edit(int id)
-        {
-            var menuItem = _dbContext.MenuItems.Find(id);
-            if (menuItem == null) return NotFound();
-
-            var model = new MenuItemUpdateViewModel
-            {
-                CategoryId = menuItem.CategoryId,
-                Name = menuItem.Name,
-                Description = menuItem.Description,
-                Price = menuItem.Price,
-                ImageUrl = menuItem.ImageUrl,
-                IsAvailable = menuItem.IsAvaliable,
-                Categories = _dbContext.Categories.ToList()
-            };
-
-            return View(model);
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpPost]
-        public IActionResult Edit(int id, MenuItemUpdateViewModel model)
+        public async Task<IActionResult> Delete([FromBody] RequestModel requestModel)
         {
+            var product = await _dbContext.MenuItems
+                .Include(x => x.Images)
+                .FirstOrDefaultAsync(x => x.Id == requestModel.Id);
+
+            if (product == null) return NotFound();
+
+            var removedProduct = _dbContext.MenuItems.Remove(product);
+            await _dbContext.SaveChangesAsync();
+
+            if (removedProduct != null)
+            {
+                System.IO.File.Delete(Path.Combine(FilePathConstants.MenuIteamPath, product.ImageUrl));
+
+                foreach (var item in product.Images)
+                {
+                    System.IO.File.Delete(Path.Combine(FilePathConstants.MenuIteamPath, item.Name));
+                }
+            }
+
+            return Json(removedProduct.Entity);
+        }
+
+        public async Task<IActionResult> Update(int id)
+        {
+            var product = await _dbContext.MenuItems
+                .Include(x => x.Images)
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            var categories = await _dbContext.Categories.ToListAsync();
+            var categoryListItems = categories.Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
+            if (product == null) return NotFound();
+
+            var updateViewModel = new MenuItemUpdateViewModel
+            {
+                Name = product.Name,
+                ImagesFiles = product.ImagesFiles,
+                Price = product.Price,
+                CategoryId = product.CategoryId,
+                CategorySelectListItems = categoryListItems,
+                Description = product.Description,
+                ImageUrl = product.ImageUrl,
+            };
+
+            return View(updateViewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(MenuItemUpdateViewModel model)
+        {
+            var product = await _dbContext.MenuItems
+                .Include(x => x.Name)
+                .Include(x=>x.Images)
+                .FirstOrDefaultAsync(x => x.Id == model.Id);
+
+            if (product == null) return NotFound();
+
+            var categories = await _dbContext.Categories.ToListAsync();
+            var categoryListItems = categories.Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
+
+     
+
+
             if (!ModelState.IsValid)
             {
-                model.Categories = _dbContext.Categories.ToList();
+                model.CategorySelectListItems = categoryListItems;
                 return View(model);
             }
 
-            var menuItem = _dbContext.MenuItems.Find(id);
-            if (menuItem == null) return NotFound();
+            product.Name = model.Name;
+            product.Price = model.Price;
+            product.CategoryId = model.CategoryId;
+            if (model.ImagesFiles != null)
+            {
+                if (!model.ImagesFiles.IsImage())
+                {
+                    ModelState.AddModelError("ImageFile", "Sekil secilmelidir!");
+                    model.CategorySelectListItems = categoryListItems;
 
-            // Resim yükleme kısmı artık yok
+                    return View(model);
+                }
 
-            menuItem.Name = model.Name;
-            menuItem.Description = model.Description;
-            menuItem.Price = model.Price;
-            menuItem.CategoryId = model.CategoryId;
-            menuItem.IsAvaliable = model.IsAvailable;
+                if (!model.ImagesFiles.IsAllowedSize(1))
+                {
+                    ModelState.AddModelError("ImageFile", "Sekil hecmi 1mb-dan cox ola bilmez");
+                    model.CategorySelectListItems = categoryListItems;
 
-            _dbContext.SaveChanges();
+                    return View(model);
+                }
 
-            return RedirectToAction("Index");
+                var unicalCoverImageFileName = await model.ImagesFiles.GenerateFile(FilePathConstants.MenuIteamPath);
+
+                if (product.ImageUrl != null)
+                {
+                    System.IO.File.Delete(Path.Combine(FilePathConstants.MenuIteamPath, product.ImageUrl));
+                }
+
+                product.ImageUrl = unicalCoverImageFileName;
+            }
+
+            bool isValidImages = true;
+
+            foreach (var item in model.ImageFiles ?? [])
+            {
+                if (!item.IsImage())
+                {
+                    isValidImages = false;
+                    ModelState.AddModelError("", $"{item.FileName}-sekil olmalidir");
+                }
+
+                if (!item.IsAllowedSize(1))
+                {
+                    isValidImages = false;
+                    ModelState.AddModelError("", $"{item.FileName}-hecmi 1 mb-dan cox olmamalidir");
+                }
+            }
+
+            if (!isValidImages)
+            {
+                model.CategorySelectListItems = categoryListItems;
+
+                return View(model);
+            }
+
+            foreach (var item in model.ImageFiles ?? [])
+            {
+                var unicalFileName = await item.GenerateFile(FilePathConstants.MenuIteamPath);
+                product.Images.Add(new MenuItemImage { Name = unicalFileName });
+            }
+
+            _dbContext.MenuItems.Update(product);
+            await _dbContext.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
-        // Detay
-        public IActionResult Details(int id)
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveImage([FromBody] RequestModel requestModel)
         {
-            var menuItem = _dbContext.MenuItems
-                .Include(m => m.Category)
-                .FirstOrDefault(m => m.Id == id);
+            if (string.IsNullOrEmpty(requestModel.ImageName)) return BadRequest();
 
-            if (menuItem == null) return NotFound();
+            var productImage = await _dbContext.MenuItemImages.FirstOrDefaultAsync(x => x.Name == requestModel.ImageName);
 
-            return View(menuItem);
+            if (productImage == null) return BadRequest();
+
+            var removedImage = _dbContext.MenuItemImages.Remove(productImage);
+            await _dbContext.SaveChangesAsync();
+
+            if (removedImage != null)
+            {
+                System.IO.File.Delete(Path.Combine(FilePathConstants.MenuIteamPath, requestModel.ImageName));
+            }
+
+            return Json(removedImage.Entity);
         }
 
 
-        public IActionResult Delete(int id)
-        {
-            var menuItem = _dbContext.MenuItems.Find(id);
-            if (menuItem == null) return NotFound();
-
-            _dbContext.MenuItems.Remove(menuItem);
-            _dbContext.SaveChanges();
-
-            return RedirectToAction("Index");
-        }
     }
 }

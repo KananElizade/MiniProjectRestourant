@@ -19,25 +19,25 @@ namespace Restaurant.Controllers
         {
             ViewBag.ProductCount = await _dbContext.MenuItems.CountAsync();
 
-            var products = await _dbContext.MenuItems.Take(6).ToListAsync();
+            var MenuItems = await _dbContext.MenuItems.Take(6).ToListAsync();
 
-            return View(products);
+            return View(MenuItems);
         }
 
         //[HttpPost]
         //public async Task<IActionResult> Partial([FromBody]RequestModel requestModel)
         //{
-        //    var products = await _dbContext.Products.Skip(requestModel.StartFrom).Take(6).ToListAsync();
+        //    var MenuItems = await _dbContext.MenuItems.Skip(requestModel.StartFrom).Take(6).ToListAsync();
 
-        //    return PartialView("_ProductPartialView", products);
+        //    return PartialView("_ProductPartialView", MenuItems);
         //}
 
         [HttpPost]
         public async Task<IActionResult> Partial([FromBody] RequestModel requestModel)
         {
-            var products = await _dbContext.MenuItems.Skip(requestModel.StartFrom).Take(6).ToListAsync();
+            var MenuItems = await _dbContext.MenuItems.Skip(requestModel.StartFrom).Take(6).ToListAsync();
 
-            return Json(products);
+            return Json(MenuItems);
         }
 
     }

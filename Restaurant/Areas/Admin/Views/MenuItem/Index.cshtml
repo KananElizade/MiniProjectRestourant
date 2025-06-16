@@ -4,7 +4,7 @@
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Products</h4>
+                <h4 class="card-title">MenuItems</h4>
                 <a asp-controller="menuitem" asp-action="create" class="btn btn-primary">Add product</a>
                 <div class="table-responsive">
                     <table class="table">
@@ -44,30 +44,37 @@
 </div>
 
 <script>
-    function Delete(id, button){
-    const url = '/admin/product/delete';
-    const data = {
-      id: id,
-    };
+    function Delete(id, button) {
+        // 1. Remove from database
+        fetch('/admin/menuitem/delete', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]')?.value // if you use antiforgery
+            },
+            body: JSON.stringify({ id: id })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to delete from database');
+            }
+            // 2. Remove from UI
+            button.closest('tr').remove();
 
-    const options = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    };
+            // 3. Remove from cookie
+            removeIdFromCookie('MenuItems', id);
+        })
+        .catch(error => {
+            alert('Delete failed: ' + error);
+        });
+    }
 
-    fetch(url, options)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        button.parentNode.parentNode.remove();
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-
+    // Helper to remove an ID from a comma-separated cookie
+    function removeIdFromCookie(cookieName, id) {
+        let cookie = document.cookie.split('; ').find(row => row.startsWith(cookieName + '='));
+        if (!cookie) return;
+        let value = cookie.split('=')[1];
+        let ids = value.split(',').map(x => x.trim()).filter(x => x && x !== id.toString());
+        document.cookie = cookieName + '=' + ids.join(',') + '; path=/';
     }
 </script>
