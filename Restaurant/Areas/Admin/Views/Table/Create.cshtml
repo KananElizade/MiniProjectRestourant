@@ -1,0 +1,28 @@
+﻿﻿
+
+@model Restourant.DataContext.Entities.Table
+<div class="container mt-4">
+    <h3>Create New Table</h3>
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label asp-for="TableNumber" class="form-label"></label>
+            <input asp-for="TableNumber" class="form-control" />
+            <span asp-validation-for="TableNumber" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Capacity" class="form-label"></label>
+            <input asp-for="Capacity" class="form-control" />
+            <span asp-validation-for="Capacity" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Status" class="form-label"></label>
+            <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<Restourant.DataContext.Entities.TableStatus>()"></select>
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-area="Admin" asp-controller="Table" asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+    </form>
+</div>

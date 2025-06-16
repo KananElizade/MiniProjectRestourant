@@ -5,7 +5,7 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Products</h4>
-                <a asp-controller="product" asp-action="create" class="btn btn-primary">Add product</a>
+                <a asp-controller="menuitem" asp-action="create" class="btn btn-primary">Add product</a>
                 <div class="table-responsive">
                     <table class="table">
                         <thead>
@@ -24,8 +24,8 @@
                                     <td>@item.Price</td>
                                     <td>@item.Category?.Name</td>
                                     <td>
-                                        <a asp-controller="product" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                        <a asp-controller="product" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                        <a asp-controller="menuitem" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                                        <a asp-controller="menuitem" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
                                         @*  <form method="post" asp-action="delete">
                                             <input type="hidden" name="id" value="@item.Id"/>
                                             <button type="submit" class="btn btn-danger">Delete</button>

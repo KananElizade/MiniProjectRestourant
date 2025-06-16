@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
-namespace Restaurant.Areas.Admin.Models
+namespace Restourant.Areas.Admin.Models
 {
     public class UserCreateViewModel
     {

@@ -1,0 +1,55 @@
+﻿@model List<Restourant.DataContext.Entities.Table>
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <h4 class="fw-bold py-3 mb-4">Tables</h4>
+
+        <a asp-area="Admin" asp-controller="Table" asp-action="Create" class="btn btn-success mb-3">
+            Create New Table
+        </a>
+
+        <div class="card">
+            <h5 class="card-header">Tables CRUD</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Table Number</th>
+                            <th>Capacity</th>
+                            <th>Status</th>
+                            <th>Update</th>
+                            <th>Read</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TableNumber</td>
+                                <td>@item.Capacity</td>
+                                <td>@item.Status.ToString()</td>
+                                <td>
+                                    <a asp-area="Admin" asp-controller="Table" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info btn-sm">
+                                        Update
+                                    </a>
+                                </td>
+                                <td>
+                                    <a asp-area="Admin" asp-controller="Table" asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                                        Read
+                                    </a>
+                                </td>
+                                <td>
+                                    <form asp-area="Admin" asp-controller="Table" asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Are you sure?');" style="display:inline">
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

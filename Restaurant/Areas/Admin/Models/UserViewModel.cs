@@ -1,4 +1,4 @@
-﻿namespace Restaurant.Areas.Admin.Models
+﻿namespace Restourant.Areas.Admin.Models
 {
     public class UserViewModel
     {

@@ -199,7 +199,7 @@
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                                <a asp-contoller="Category" asp-action="Index" class="menu-link">
                                     <div data-i18n="Basic">Login</div>
                                 </a>
                             </li>
@@ -238,15 +238,29 @@
                     <!-- Cards -->
                     <li class="menu-item">
                         <a href="cards-basic.html" class="menu-link">
-                            <i class="menu-icon tf-icons bx bx-collection"></i>
-                            <div data-i18n="Basic">Cards</div>
+
+                            <a asp-controller="Category" asp-action="Index" style="margin: 50px" data-i18n="Basic">Category</a>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="cards-basic.html" class="menu-link">
+
+                            <a asp-controller="Table" asp-action="Index" style="margin: 50px" data-i18n="Basic">Table</a>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="cards-basic.html" class="menu-link">
+
+                            <a asp-controller="MenuItem" asp-action="Index" style="margin: 50px" data-i18n="Basic">MenuItem</a>
                         </a>
                     </li>
                     <!-- User interface -->
                     <li class="menu-item">
-                        <a href="javascript:void(0)" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-box"></i>
-                            <div data-i18n="User interface">User interface</div>
+
+                        <a href="cards-basic.html" class="menu-link">
+
+                            <a asp-controller="Speaker" asp-action="Index" style="margin: 50px" data-i18n="User interface">Speaker</a>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">

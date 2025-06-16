@@ -6,12 +6,14 @@ using Restourant.Areas.Admin.Models;
 using Restourant.DataContext.Entities;
 using System.Threading.Tasks;
 using Restaurant.Areas.Admin.Controllers;
-using Restaurant.Areas.Admin.Models;
+using Restourant.Areas.Admin.Data;
+using Restourant.DataContext;
 
 namespace Restourant.Areas.Admin.Controllers
 {
     public class UserController : AdminController
     {
+        private readonly AppDbContext _DbContext;
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
@@ -120,6 +122,35 @@ namespace Restourant.Areas.Admin.Controllers
             }
 
             return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> Edit(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            var roles = await _roleManager.Roles.ToListAsync();
+            var userRoles = await _userManager.GetRolesAsync(user);
+            var userEditViewModel = new UserCreateViewModel
+            {
+                Roles = roles.Select(r => new SelectListItem
+                {
+                    Value = r.Name,
+                    Text = r.Name
+                }).ToList(),
+                Username = string.Empty,
+                FullName = string.Empty,
+                Email = string.Empty,
+                Password = string.Empty,
+                ConfirmPassword = string.Empty
+            };
+            return View(userEditViewModel);
+        }
+        public async Task<IActionResult> Details()
+        {
+            var user = await _DbContext.Users.ToListAsync();
+            return View(user);
         }
     }
 }

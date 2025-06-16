@@ -14,24 +14,27 @@
                                 <th>Role</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            @foreach (var user in Model)
-                            {
-                                <tr>
-                                    <td>@user.UserName</td>
-                                    <td>@user.Email</td>
-                                    <td>
-                                        <select>
-                                            @foreach (var role in user.Roles)
-                                            {
-                                                <option value="@role">@role</option>
-                                            }
-                                        </select>
-                                    </td>
-                                </tr>
-                            }
 
+                        <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.UserName</td>
+                                        <td>@item.Email</td>
+                                        <td>
+                                            <a asp-controller="User" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                                        <a asp-controller="User" asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                            @*  <form method="post" asp-action="delete">
+                                            <input type="hidden" name="id" value="@item.Id"/>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                         </form> *@
+                                            <button onclick="Delete(@item.Id, this)" class="btn btn-danger">Delete</button>
+                                        </td>
+                                    </tr>
+                                }
+                            }
                         </tbody>
+                        
                     </table>
                 </div>
             </div>
