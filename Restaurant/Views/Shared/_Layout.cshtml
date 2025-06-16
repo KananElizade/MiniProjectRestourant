@@ -75,7 +75,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="logo hidden-lg hidden-md" href="index.html">
+                            <a class="logo hidden-lg hidden-md" asp-controller="Admin" asp-action="Index">
                                 <img class="logo-light" src="~/assets/images/logo/logo-light.png" alt="Steakin Logo" draggable="false">
                                 <img class="logo-dark" src="~/assets/images/logo/logo-dark.png" alt="Steakin Logo" draggable="false">
                             </a>
@@ -170,23 +170,9 @@
                                 <li class="has-dropdown">
                                     <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">About</a>
                                     <ul class="dropdown-menu">
+                                       
                                         <li>
-                                            <a href="page-about.html">our story</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-chefs.html">our chefs</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-contacts.html">contact us</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-faqs.html">FAQs</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-testimonials.html">guestbook</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-gallery.html">gallery</a>
+                                            <a asp-controller="About"asp-action="Index">About us</a>
                                         </li>
 
                                     </ul>
@@ -196,27 +182,16 @@
                                 <li class="has-dropdown">
                                     <a href="#" data-toggle="dropdown" class="dropdown-toggle  menu-item" data-hover="pages">Menu</a>
                                     <ul class="dropdown-menu">
+                                      
                                         <li>
-                                            <a href="menu-board.html">menu board</a>
-                                        </li>
-                                        <li>
-                                            <a href="menu-classic.html">menu classic</a>
-                                        </li>
-                                        <li>
-                                            <a href="menu-gallery.html">menu gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="menu-grid.html">menu grid</a>
-                                        </li>
-                                        <li>
-                                            <a href="menu-simple.html">menu simple</a>
+                                            <a asp-controller="Menu"asp-action="Index"> Our menu </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- li end -->
 
                                 <li>
-                                    <a class="menu-item" href="page-book-table.html">book a table</a>
+                                    <a class="menu-item" asp-controller="Reservation"asp-action="index">book a table</a>
                                 </li>
 
                                 <!-- Features Menu-->
@@ -503,130 +478,19 @@
                                     <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item" data-hover="shop">shop</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="shop-4cols.html">shop 4 columns</a>
+                                            <a asp-controller="Shop"asp-action="index">shop in our restaurant</a>
                                         </li>
-                                        <li>
-                                            <a href="shop-MenuItems.html">shop MenuItems</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-single.html">shop single</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-cart.html">shop cart</a>
-                                        </li>
+                                       
                                     </ul>
                                 </li>
                                 <!-- li end -->
                                 <!-- Elements Menu -->
                                 <li class="has-dropdown mega-dropdown">
-                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">elements</a>
+                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Online shop</a>
                                     <ul class="dropdown-menu mega-dropdown-menu">
-                                        <li>
-                                            <div class="container">
-                                                <div class="row">
-                                                    <!-- Column #1 -->
-                                                    <div class="col-md-3">
-                                                        <a href="#">interactive elements</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="elements-testimonials.html"><i class="fa fa-quote-right"></i>testimonials</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-blockquotes.html"><i class="fa fa-quote-left"></i>blockquotes</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-video-buttons.html"><i class="fa fa-toggle-right"></i>video buttons</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-clients.html"><i class="fa fa-user"></i>clients</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-clients-carousel.html"><i class="fa fa-users"></i>clients carousel</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-daily-specials.html"><i class="fa fa-newspaper-o"></i>Daily Specials</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <!-- .col-md-3 end -->
-                                                    <!-- Column #2 -->
-                                                    <div class="col-md-3">
-                                                        <a href="#">standard elements</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="elements-accordion.html"><i class="fa fa-server"></i>accordion</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-cta.html"><i class="fa fa-child"></i>call to action</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-contact-form.html"><i class="fa fa-desktop"></i>contact form</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-team.html"><i class="fa fa-group"></i>team variations</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-tabs.html"><i class="fa fa-ellipsis-h"></i>tabs</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-reservation.html"><i class="fa fa-laptop"></i>reservation</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <!-- .col-md-3 end -->
-                                                    <!-- Column #3 -->
-                                                    <div class="col-md-3">
-                                                        <a href="#">infographics elements</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="elements-counters.html"><i class="fa fa-dashboard"></i>counters</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-dividers.html"><i class="fa fa-dot-circle-o"></i>dividers</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-pricing.html"><i class="fa fa-exchange"></i>pricing</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-list.html"><i class="fa fa-list"></i>list</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-progress-bars.html"><i class="fa fa-hourglass-half"></i>progress bars</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-interactive-banners.html"><i class="fa fa-laptop"></i>interactive banners</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <!-- .col-md-3 end -->
-                                                    <!-- Column #4 -->
-                                                    <div class="col-md-3">
-                                                        <a href="#">typography</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="elements-buttons.html"><i class="fa fa-suitcase"></i>buttons</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-heading.html"><i class="fa fa-sort-alpha-asc"></i>heading</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-columns-grids.html"><i class="fa fa-th"></i>columns grids</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="elements-icon-text.html"><i class="fa fa-sliders"></i>icon text</a>
-                                                            </li>
-
-                                                            <li>
-                                                                <a href="elements-typography.html"><i class="fa fa-text-height"></i>typography</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <!-- .col-md-3 end -->
-                                                </div>
-                                                <!-- .row end -->
-                                            </div>
-                                            <!-- container end -->
-                                        </li>
+                                       <li>
+                                           <a asp-controller="shop"asp-action="onlineshop">Shop online<</a>
+                                       </li>
                                     </ul>
                                     <!-- .mega-dropdown-menu end -->
                                 </li>

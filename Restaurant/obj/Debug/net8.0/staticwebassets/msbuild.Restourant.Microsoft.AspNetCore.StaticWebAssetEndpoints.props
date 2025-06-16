@@ -864,6 +864,12 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-THrhmSR/8lIPo\u002BisrfVFXyuJZNrumOPsnRj3cKWIxtM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022THrhmSR/8lIPo\u002BisrfVFXyuJZNrumOPsnRj3cKWIxtM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Restourant/admin/vendor/libs/highlight/highlight.3mmn1m2jas.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\vendor\libs\highlight\highlight.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3mmn1m2jas"},{"Name":"integrity","Value":"sha256-O2vbpPKzu8gR2/1xSUxHp910SYw\u002Bg7G7H60HZeXl/UU="},{"Name":"label","Value":"_content/Restourant/admin/vendor/libs/highlight/highlight.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2967008"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O2vbpPKzu8gR2/1xSUxHp910SYw\u002Bg7G7H60HZeXl/UU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Restourant/admin/vendor/libs/highlight/highlight.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\vendor\libs\highlight\highlight.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -879,14 +885,8 @@
     <StaticWebAssetEndpoint Include="_content/Restourant/admin/vendor/libs/highlight/highlight.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\vendor\libs\highlight\highlight.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hTDM9cBop3hyMprN\u002BAHX0kjWeWUmRQNml4YwRvNgurw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2967006"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hTDM9cBop3hyMprN\u002BAHX0kjWeWUmRQNml4YwRvNgurw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Restourant/admin/vendor/libs/highlight/highlight.pnnb8nmr6c.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\vendor\libs\highlight\highlight.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pnnb8nmr6c"},{"Name":"integrity","Value":"sha256-hTDM9cBop3hyMprN\u002BAHX0kjWeWUmRQNml4YwRvNgurw="},{"Name":"label","Value":"_content/Restourant/admin/vendor/libs/highlight/highlight.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2967006"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hTDM9cBop3hyMprN\u002BAHX0kjWeWUmRQNml4YwRvNgurw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O2vbpPKzu8gR2/1xSUxHp910SYw\u002Bg7G7H60HZeXl/UU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2967008"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O2vbpPKzu8gR2/1xSUxHp910SYw\u002Bg7G7H60HZeXl/UU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Restourant/admin/vendor/libs/jquery/jquery.9q5kman4a9.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\vendor\libs\jquery\jquery.js'))</AssetFile>
@@ -1119,50 +1119,50 @@
     <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-arabic.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-arabic.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ui7g/q3UCHh0PrlBNmE14BNlG0FBHvcusTwjToNpZxw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3150"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ui7g/q3UCHh0PrlBNmE14BNlG0FBHvcusTwjToNpZxw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XR6p9DhYQwQANMLmoKtHTI31eII/jZceRnilira\u002Bp64="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3152"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XR6p9DhYQwQANMLmoKtHTI31eII/jZceRnilira\u002Bp64=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-arabic.yyluw1iqqw.css">
+    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-arabic.p5t38o4fo0.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-arabic.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yyluw1iqqw"},{"Name":"integrity","Value":"sha256-ui7g/q3UCHh0PrlBNmE14BNlG0FBHvcusTwjToNpZxw="},{"Name":"label","Value":"_content/Restourant/assets/css/style-arabic.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3150"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ui7g/q3UCHh0PrlBNmE14BNlG0FBHvcusTwjToNpZxw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p5t38o4fo0"},{"Name":"integrity","Value":"sha256-XR6p9DhYQwQANMLmoKtHTI31eII/jZceRnilira\u002Bp64="},{"Name":"label","Value":"_content/Restourant/assets/css/style-arabic.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3152"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XR6p9DhYQwQANMLmoKtHTI31eII/jZceRnilira\u002Bp64=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-dark.8neeomagpf.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-dark.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8neeomagpf"},{"Name":"integrity","Value":"sha256-pBF7xH9I0HsiG6hM3fgyLGptkcDWYuaNdSk04hSYPQk="},{"Name":"label","Value":"_content/Restourant/assets/css/style-dark.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8584"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pBF7xH9I0HsiG6hM3fgyLGptkcDWYuaNdSk04hSYPQk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-dark.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-dark.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BR5dimiINOWR9vaIu/Z9LK\u002BPMiuvlxuWPabE1cB0ato="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BR5dimiINOWR9vaIu/Z9LK\u002BPMiuvlxuWPabE1cB0ato=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pBF7xH9I0HsiG6hM3fgyLGptkcDWYuaNdSk04hSYPQk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8584"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pBF7xH9I0HsiG6hM3fgyLGptkcDWYuaNdSk04hSYPQk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-dark.jpfi5b1i9y.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-dark.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jpfi5b1i9y"},{"Name":"integrity","Value":"sha256-\u002BR5dimiINOWR9vaIu/Z9LK\u002BPMiuvlxuWPabE1cB0ato="},{"Name":"label","Value":"_content/Restourant/assets/css/style-dark.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BR5dimiINOWR9vaIu/Z9LK\u002BPMiuvlxuWPabE1cB0ato=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-rtl.47t6sr8trx.css">
+    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-rtl.0a8j8f87es.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-rtl.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"47t6sr8trx"},{"Name":"integrity","Value":"sha256-sH7JDHJW8m7TikIbSw7CGqj02iFF5A0mviHWFxIoZQA="},{"Name":"label","Value":"_content/Restourant/assets/css/style-rtl.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22813"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022sH7JDHJW8m7TikIbSw7CGqj02iFF5A0mviHWFxIoZQA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0a8j8f87es"},{"Name":"integrity","Value":"sha256-WGsLzoRzwPzCdaRafqGsNgH1qWt5QdFK1hM\u002B4hI9AxA="},{"Name":"label","Value":"_content/Restourant/assets/css/style-rtl.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22815"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WGsLzoRzwPzCdaRafqGsNgH1qWt5QdFK1hM\u002B4hI9AxA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style-rtl.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style-rtl.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sH7JDHJW8m7TikIbSw7CGqj02iFF5A0mviHWFxIoZQA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22813"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022sH7JDHJW8m7TikIbSw7CGqj02iFF5A0mviHWFxIoZQA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style.6gar7rzsmb.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6gar7rzsmb"},{"Name":"integrity","Value":"sha256-Wq\u002BJmkKfQui2nGfGgxjLkLoQWX/LkWI0G1PHThzbU\u002B8="},{"Name":"label","Value":"_content/Restourant/assets/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"213015"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Wq\u002BJmkKfQui2nGfGgxjLkLoQWX/LkWI0G1PHThzbU\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WGsLzoRzwPzCdaRafqGsNgH1qWt5QdFK1hM\u002B4hI9AxA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22815"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WGsLzoRzwPzCdaRafqGsNgH1qWt5QdFK1hM\u002B4hI9AxA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Wq\u002BJmkKfQui2nGfGgxjLkLoQWX/LkWI0G1PHThzbU\u002B8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"213015"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Wq\u002BJmkKfQui2nGfGgxjLkLoQWX/LkWI0G1PHThzbU\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 21:22:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hqWk8dPbTMYF/uqt8xpRqd4bEO6N8Hcz9VvAMp37gwU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"213025"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hqWk8dPbTMYF/uqt8xpRqd4bEO6N8Hcz9VvAMp37gwU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Restourant/assets/css/style.ihlrkz86q5.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ihlrkz86q5"},{"Name":"integrity","Value":"sha256-hqWk8dPbTMYF/uqt8xpRqd4bEO6N8Hcz9VvAMp37gwU="},{"Name":"label","Value":"_content/Restourant/assets/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"213025"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hqWk8dPbTMYF/uqt8xpRqd4bEO6N8Hcz9VvAMp37gwU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 08:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Restourant/assets/fonts/fontawesome-webfont5b62.67h1lttds5.ttf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\fontawesome-webfont5b62.ttf'))</AssetFile>

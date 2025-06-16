@@ -15,7 +15,7 @@ namespace Restaurant.Controllers
             _dbContext = dbContext;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Indexx()
         {
             ViewBag.ProductCount = await _dbContext.MenuItems.CountAsync();
 
@@ -39,6 +39,7 @@ namespace Restaurant.Controllers
 
             return Json(MenuItems);
         }
+        
 
     }
 

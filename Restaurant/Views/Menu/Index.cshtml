@@ -1,0 +1,462 @@
+﻿﻿@using Restourant.DataContext.Entities
+
+<section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
+    <div class="bg-section">
+        <img src="assets/images/page-title/16.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="title title-1 text-center">
+                    <div class="title--content">
+                        <div class="title--subtitle">Fresh, Tasty Meals</div>
+                        <div class="title--heading">
+                            <h1>Discover Our Menu</h1>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html">menu</a>
+                        </li>
+                        <li class="active">board</li>
+                    </ol>
+                    <div class="divider--shape-1down"></div>
+                </div>
+                <!-- .title end -->
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #page-title end -->
+<!-- Menu Board
+============================================= -->
+<section id="menuBoard">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="heading heading-1 mb-50 text--center">
+                    <p class="heading--subtitle">Start Eating Better</p>
+                    <h2 class="heading--title mb-0">Daily New Fresh Meals</h2>
+                    <div class="divider--shape-4"></div>
+                    <p class="heading--desc">Steak In has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar and alovely awesome on site coffee roastery.</p>
+                </div>
+            </div>
+            <!-- .col-md-8 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+    <div class="container-fluid pr-0 pl-0 tabs">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li><a href="#breakfast" data-toggle="tab">Breakfast</a></li>
+                    <li class="active"><a href="#lunch" data-toggle="tab">Lunch</a></li>
+                    <li><a href="#dinner" data-toggle="tab">Dinner</a></li>
+                    <li><a href="#dessert" data-toggle="tab">Dessert</a></li>
+                    <li><a href="#drinks" data-toggle="tab">Drinks</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane fade" id="breakfast">
+                        <!-- Menu #7
+                        ============================================= -->
+                        <div id="menu7" class="menu menu-board text-center">
+                            <div class="container-fluid pr-0 pl-0">
+                                <div class="row">
+                                    <div class="dishes-wrapper">
+                                        <!-- Dish #1 -->
+                                        @model List<MenuItem>
+
+                                        @foreach (var item in Model)
+                                        {
+                                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                                <div class="row dish-panel">
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--content">
+
+                                                            <span class="dish--price">$@item.Price</span>
+                                                            <h3 class="dish--title">@item.Name</h3>
+                                                            <div class="divider--shape-4"></div>
+                                                            <p class="dish--desc">@item.Description</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--img">
+                                                            <div class="divider--shape-left"></div>
+                                                            <img src="~/assets/images/@item.ImageUrl" alt="dish img">
+                                                            <div class="dish--overlay">
+                                                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup@item.Id">
+                                                                    <i class="fa fa-search-plus"></i>
+                                                                </a>
+
+                                                                <!-- Modal Start -->
+                                                                <div class="modal fade" tabindex="-1" role="dialog" id="dishPopup@item.Id">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-body">
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <div class="row reservation">
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="popup--img">
+                                                                                            <img src="~/images/menu/@item.ImageUrl" alt="dish popup">
+                                                                                            <div class="img-popup-overlay">
+                                                                                                <div class="popup--price">$@item.Price</div>
+                                                                                                <h3 class="popup--title">@item.Name</h3>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="content-popup">
+                                                                                            <p>@item.Description</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> <!-- .row end -->
+                                                                            </div>
+                                                                        </div> <!-- .modal-content -->
+                                                                    </div> <!-- .modal-dialog -->
+                                                                </div> <!-- .modal -->
+                                                                <!-- Modal End -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+                                        <!-- .col-md-6 end -->
+                                    </div>
+                                    <!-- .row end -->
+                                </div>
+                                <!-- .menu-content end -->
+                            </div>
+                            <!-- .menu-content end -->
+                        </div>
+                    </div>
+                    <!-- .tab-pane end -->
+                    <div class="tab-pane fade in active" id="lunch">
+                        <!-- Menu #7
+                        ============================================= -->
+                        <div class="menu menu-board text-center">
+                            <div class="container-fluid pr-0 pl-0">
+                                <div class="row">
+                                    <div class="dishes-wrapper">
+                                        <!-- Dish #1 -->
+                                        @foreach (var item in Model)
+                                        {
+                                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                                <div class="row dish-panel">
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--content">
+
+                                                            <span class="dish--price">$@item.Price</span>
+                                                            <h3 class="dish--title">@item.Name</h3>
+                                                            <div class="divider--shape-4"></div>
+                                                            <p class="dish--desc">@item.Description</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--img">
+                                                            <div class="divider--shape-left"></div>
+                                                            <img src="~/assets/images/@item.ImageUrl" alt="dish img">
+                                                            <div class="dish--overlay">
+                                                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup@item.Id">
+                                                                    <i class="fa fa-search-plus"></i>
+                                                                </a>
+
+                                                                <!-- Modal Start -->
+                                                                <div class="modal fade" tabindex="-1" role="dialog" id="dishPopup@item.Id">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-body">
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <div class="row reservation">
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="popup--img">
+                                                                                            <img src="~/images/menu/@item.ImageUrl" alt="dish popup">
+                                                                                            <div class="img-popup-overlay">
+                                                                                                <div class="popup--price">$@item.Price</div>
+                                                                                                <h3 class="popup--title">@item.Name</h3>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="content-popup">
+                                                                                            <p>@item.Description</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <form asp-controller="Basket" asp-action="AddToBasket" method="post">
+                                                                                        <input type="hidden" name="menuItemId" value="@item.Id" />
+                                                                                        <button type="submit" class="btn btn-success mt-2">Add to Basket</button>
+                                                                                    </form>
+
+                                                                                </div> <!-- .row end -->
+                                                                            </div>
+                                                                        </div> <!-- .modal-content -->
+                                                                    </div> <!-- .modal-dialog -->
+                                                                </div> <!-- .modal -->
+                                                                <!-- Modal End -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        <!-- .col-md-6 end -->
+                                    </div>
+                                    <!-- .row end -->
+                                </div>
+                                <!-- .menu-content end -->
+                            </div>
+                            <!-- .menu-content end -->
+                        </div>
+                    </div>
+                    <!-- .tab-pane end -->
+                    <div class="tab-pane fade" id="dinner">
+                        <!-- Menu #7
+                        ============================================= -->
+                        <div class="menu menu-board text-center">
+                            <div class="container-fluid pr-0 pl-0">
+                                <div class="row">
+                                    <div class="dishes-wrapper">
+                                        <!-- Dish #1 -->
+                                        @foreach (var item in Model)
+                                        {
+                                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                                <div class="row dish-panel">
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--content">
+
+                                                            <span class="dish--price">$@item.Price</span>
+                                                            <h3 class="dish--title">@item.Name</h3>
+                                                            <div class="divider--shape-4"></div>
+                                                            <p class="dish--desc">@item.Description</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--img">
+                                                            <div class="divider--shape-left"></div>
+                                                            <img src="~/assets/images/@item.ImageUrl" alt="dish img">
+                                                            <div class="dish--overlay">
+                                                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup@item.Id">
+                                                                    <i class="fa fa-search-plus"></i>
+                                                                </a>
+
+                                                                <!-- Modal Start -->
+                                                                <div class="modal fade" tabindex="-1" role="dialog" id="dishPopup@item.Id">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-body">
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <div class="row reservation">
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="popup--img">
+                                                                                            <img src="~/images/menu/@item.ImageUrl" alt="dish popup">
+                                                                                            <div class="img-popup-overlay">
+                                                                                                <div class="popup--price">$@item.Price</div>
+                                                                                                <h3 class="popup--title">@item.Name</h3>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="content-popup">
+                                                                                            <p>@item.Description</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> <!-- .row end -->
+                                                                            </div>
+                                                                        </div> <!-- .modal-content -->
+                                                                    </div> <!-- .modal-dialog -->
+                                                                </div> <!-- .modal -->
+                                                                <!-- Modal End -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+                                    </div>
+                                    <!-- .row end -->
+                                </div>
+                                <!-- .menu-content end -->
+                            </div>
+                            <!-- .menu-content end -->
+                        </div>
+                    </div>
+                    <!-- .tab-pane end -->
+                    <div class="tab-pane fade" id="dessert">
+                        <!-- Menu #7
+                        ============================================= -->
+                        <div class="menu menu-board text-center">
+                            <div class="container-fluid pr-0 pl-0">
+                                <div class="row">
+                                    <div class="dishes-wrapper">
+                                        <!-- Dish #1 -->
+                                        @foreach (var item in Model)
+                                        {
+                                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                                <div class="row dish-panel">
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--content">
+
+                                                            <span class="dish--price">$@item.Price</span>
+                                                            <h3 class="dish--title">@item.Name</h3>
+                                                            <div class="divider--shape-4"></div>
+                                                            <p class="dish--desc">@item.Description</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--img">
+                                                            <div class="divider--shape-left"></div>
+                                                            <img src="~/assets/images/@item.ImageUrl" alt="dish img">
+                                                            <div class="dish--overlay">
+                                                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup@item.Id">
+                                                                    <i class="fa fa-search-plus"></i>
+                                                                </a>
+
+                                                                <!-- Modal Start -->
+                                                                <div class="modal fade" tabindex="-1" role="dialog" id="dishPopup@item.Id">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-body">
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <div class="row reservation">
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="popup--img">
+                                                                                            <img src="~/images/menu/@item.ImageUrl" alt="dish popup">
+                                                                                            <div class="img-popup-overlay">
+                                                                                                <div class="popup--price">$@item.Price</div>
+                                                                                                <h3 class="popup--title">@item.Name</h3>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="content-popup">
+                                                                                            <p>@item.Description</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> <!-- .row end -->
+                                                                            </div>
+                                                                        </div> <!-- .modal-content -->
+                                                                    </div> <!-- .modal-dialog -->
+                                                                </div> <!-- .modal -->
+                                                                <!-- Modal End -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+                                        <!-- .col-md-6 end -->
+                                    </div>
+                                    <!-- .row end -->
+                                </div>
+                                <!-- .menu-content end -->
+                            </div>
+                            <!-- .menu-content end -->
+                        </div>
+                    </div>
+                    <!-- .tab-pane end -->
+                    <div class="tab-pane fade" id="drinks">
+                        <!-- Menu #7
+                        ============================================= -->
+                        <div class="menu menu-board text-center">
+                            <div class="container-fluid pr-0 pl-0">
+                                <div class="row">
+                                    <div class="dishes-wrapper">
+                                        <!-- Dish #1 -->
+                                        @foreach (var item in Model)
+                                        {
+                                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                                <div class="row dish-panel">
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--content">
+
+                                                            <span class="dish--price">$@item.Price</span>
+                                                            <h3 class="dish--title">@item.Name</h3>
+                                                            <div class="divider--shape-4"></div>
+                                                            <p class="dish--desc">@item.Description</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                                        <div class="dish--img">
+                                                            <div class="divider--shape-left"></div>
+                                                            <img src="~/assets/images/@item.ImageUrl" alt="dish img">
+                                                            <div class="dish--overlay">
+                                                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup@item.Id">
+                                                                    <i class="fa fa-search-plus"></i>
+                                                                </a>
+
+                                                                <!-- Modal Start -->
+                                                                <div class="modal fade" tabindex="-1" role="dialog" id="dishPopup@item.Id">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-body">
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <div class="row reservation">
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="popup--img">
+                                                                                            <img src="~/images/menu/@item.ImageUrl" alt="dish popup">
+                                                                                            <div class="img-popup-overlay">
+                                                                                                <div class="popup--price">$@item.Price</div>
+                                                                                                <h3 class="popup--title">@item.Name</h3>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                                                                        <div class="content-popup">
+                                                                                            <p>@item.Description</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> <!-- .row end -->
+                                                                            </div>
+                                                                        </div> <!-- .modal-content -->
+                                                                    </div> <!-- .modal-dialog -->
+                                                                </div> <!-- .modal -->
+                                                                <!-- Modal End -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+                                        <!-- .col-md-6 end -->
+                                    </div>
+                                    <!-- .row end -->
+                                </div>
+                                <!-- .menu-content end -->
+                            </div>
+                            <!-- .menu-content end -->
+                        </div>
+                    </div>
+                    <!-- .tab-pane end -->
+                </div>
+                <!-- .tabs-content end -->
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>

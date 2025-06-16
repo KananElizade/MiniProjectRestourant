@@ -2,8 +2,10 @@
 using Newtonsoft.Json;
 using Restourant.DataContext;
 using Restourant.Models;
+using Restourant.DataContext;
+using Restourant.Models;
 
-namespace Restaurant.Controllers
+namespace Restourant.Controllers
 {
     public class BasketController : Controller
     {
@@ -110,7 +112,7 @@ namespace Restaurant.Controllers
         }
 
         [HttpPost]
-        public IActionResult UpdateBasket([FromBody]UpdateModel updateModel)
+        public IActionResult UpdateBasket([FromBody] UpdateModel updateModel)
         {
             var basket = GetBasket();
             var basketItem = basket.Find(x => x.ProductId == updateModel.ProductId);
