@@ -88,14 +88,6 @@ namespace Restourant.Areas.Admin.Controllers
                 return View(model);
             }
 
-            if (!model.ImagesFiles.IsAllowedSize(1))
-            {
-                ModelState.AddModelError("ImageFile", "Sekil hecmi 1mb-dan cox ola bilmez");
-                model.CategorySelectListItems = categoryListItems;
-
-                return View(model);
-            }
-
             var productImages = new List<MenuItemImage>();
 
             bool isValidImages = true;
@@ -108,11 +100,7 @@ namespace Restourant.Areas.Admin.Controllers
                     ModelState.AddModelError("", $"{item.FileName}-sekil olmalidir");
                 }
 
-                if (!item.IsAllowedSize(1))
-                {
-                    isValidImages = false;
-                    ModelState.AddModelError("", $"{item.FileName}-hecmi 1 mb-dan cox olmamalidir");
-                }
+              
             }
 
             if (!isValidImages)

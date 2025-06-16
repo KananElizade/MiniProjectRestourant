@@ -17,7 +17,7 @@
                 </div>
                 <span asp-validation-for="Description" class="text-danger"></span>
                 <div class="form-group">
-                    <label for="exampleInputName1">Price</label>
+                    <label for="exampleInputName1">Description</label>
                     <input asp-for="Description" class="form-control" id="exampleInputName1" placeholder="Description">
                 </div>
                 <span asp-validation-for="Price" class="text-danger"></span>
@@ -28,26 +28,11 @@
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
 
                 <div class="form-group">
-                    <label>Cover image</label>
+                    <label>Images</label>
                     <div class="input-group col-xs-12">
                         <input asp-for="ImagesFiles" class="form-control file-upload-info" placeholder="Upload Image">
                     </div>
                     <span asp-validation-for="ImagesFiles" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label> image URL</label>
-                    <div class="input-group col-xs-12">
-                        <input asp-for="ImageUrl" class="form-control file-upload-info" placeholder="Image Url">
-                    </div>
-                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label>Images</label>
-                    <div class="input-group col-xs-12">
-                        <input asp-for="ImageFiles" class="form-control file-upload-info" placeholder="Upload Images">
-                    </div>
-                    <span asp-validation-for="ImageFiles" class="text-danger"></span>
                 </div>
                 <div asp-validation-summary="ModelOnly"></div>
                 <button type="submit" class="btn btn-primary mr-2">Submit</button>

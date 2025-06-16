@@ -15,11 +15,11 @@ namespace Restaurant.Controllers
             _dbContext = dbContext;
         }
 
-        public async Task<IActionResult> Indexx()
+        public async Task<IActionResult> Index()
         {
             ViewBag.ProductCount = await _dbContext.MenuItems.CountAsync();
 
-            var MenuItems = await _dbContext.MenuItems.Take(6).ToListAsync();
+            var MenuItems = await _dbContext.MenuItems.Take(Range.All).ToListAsync();
 
             return View(MenuItems);
         }

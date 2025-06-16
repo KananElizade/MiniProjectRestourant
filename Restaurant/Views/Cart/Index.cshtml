@@ -1,0 +1,105 @@
+﻿
+@model List<CartItem>
+@{
+    ViewData["Title"] = "Shopping Cart";
+    decimal total = Model.Sum(x => x.Price * x.Quantity);
+}
+
+<section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
+    <div class="bg-section">
+        <img src="~/Front/assets/images/page-title/9.jpg" alt="Background" />
+    </div>
+    <div class="container text-center">
+        <div class="title title-1">
+            <div class="title--content">
+                <div class="title--subtitle">Products</div>
+                <div class="title--heading">
+                    <h1>Shopping Cart</h1>
+                </div>
+            </div>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li><a href="/Shop">Shop</a></li>
+                <li class="active">Cart</li>
+            </ol>
+            <div class="divider--shape-1down"></div>
+        </div>
+    </div>
+</section>
+
+<section class="shop shop-cart bg-white py-5">
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-bordered text-center align-middle">
+                <thead class="bg-light">
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th style="width: 150px;">Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center text-muted">Your cart is empty.</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="text-start">
+                                    <div class="d-flex align-items-center">
+                                        <form asp-action="Remove" method="post" class="me-3">
+                                            <input type="hidden" name="id" value="@item.ProductId" />
+                                            <button class="btn btn-sm btn-outline-danger" title="Remove" type="submit">
+                                                <i class="fa fa-close"></i>
+                                            </button>
+                                        </form>
+                                        <img src="~/images/menuItem/@item.ImgUrl" alt="@item.Name" width="60" class="me-3" />
+                                        <strong>@item.Name</strong>
+                                    </div>
+                                </td>
+                                <td>$@item.Price.ToString("0.00")</td>
+                                <td>
+                                    <form asp-action="UpdateQuantity" method="post" class="d-flex justify-content-center">
+                                        <input type="hidden" name="id" value="@item.ProductId" />
+                                        <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control text-center" style="width: 60px;" />
+                                        <button type="submit" class="btn btn-sm btn-primary ms-2">Update</button>
+                                    </form>
+                                </td>
+                                <td>$@(item.Price * item.Quantity).ToString("0.00")</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row mt-4 justify-content-end">
+            <div class="col-md-6 col-lg-4">
+                <div class="border p-4 rounded bg-light">
+                    <h5>Cart Summary</h5>
+                    <ul class="list-unstyled">
+                        <li class="d-flex justify-content-between">
+                            <span>Subtotal:</span>
+                            <strong>$@(total.ToString("0.00"))</strong>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Shipping:</span>
+                            <strong>Free</strong>
+                        </li>
+                        <li class="d-flex justify-content-between border-top pt-2 mt-2">
+                            <span>Total:</span>
+                            <strong>$@(total.ToString("0.00"))</strong>
+                        </li>
+                    </ul>
+                    <a href="/Checkout" class="btn btn-primary w-100 mt-3">Proceed to Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,13 +1,6 @@
 ﻿namespace Restourant.Models
 {
-    public class CartViewModel
-    {
-        public int Quantity { get; set; }
-        public decimal Total { get; set; }
-        public List<CartItemViewModel> Items { get; set; } = new();
-    }
-
-    public class CartItemViewModel
+    public class CartItem
     {
         public int ProductId { get; set; }
         public string Name { get; set; }
