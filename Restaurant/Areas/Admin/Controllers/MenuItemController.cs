@@ -1,4 +1,5 @@
 ﻿
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using Restourant.DataContext.Entities;
 using Restourant.DataContext;
 using Restaurant.Controllers;
 using Restourant.Areas.Admin.Extensions;
+using static Restourant.Controllers.ShopController;
 
 namespace Restourant.Areas.Admin.Controllers
 {
@@ -100,7 +102,7 @@ namespace Restourant.Areas.Admin.Controllers
                     ModelState.AddModelError("", $"{item.FileName}-sekil olmalidir");
                 }
 
-              
+
             }
 
             if (!isValidImages)
@@ -189,7 +191,7 @@ namespace Restourant.Areas.Admin.Controllers
         {
             var product = await _dbContext.MenuItems
                 .Include(x => x.Name)
-                .Include(x=>x.Images)
+                .Include(x => x.Images)
                 .FirstOrDefaultAsync(x => x.Id == model.Id);
 
             if (product == null) return NotFound();
@@ -197,7 +199,7 @@ namespace Restourant.Areas.Admin.Controllers
             var categories = await _dbContext.Categories.ToListAsync();
             var categoryListItems = categories.Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
 
-     
+
 
 
             if (!ModelState.IsValid)

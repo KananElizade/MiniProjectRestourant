@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Pb304PetShop\Pb304PetShop\Mailing\Mailing.csproj" />
+    <ProjectReference Include="..\Mailing\Mailing.csproj" />
   </ItemGroup>
 
 </Project>

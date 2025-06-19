@@ -16,6 +16,7 @@ namespace Restourant.DataContext.Entities
 
         public List<MenuItemImage> Images { get; set; } = [];
         [NotMapped]
-        public IFormFile ImagesFiles { get; internal set; }
+        public IFormFile? ImagesFiles { get; internal set; }
+        public bool IsAvailable { get;  set; }
     }
 }

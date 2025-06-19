@@ -3,6 +3,7 @@ using Mailing.MailKitImplementations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Restaurant.Data;
+using Restourant.Areas.Admin.Data;
 using Restourant.DataContext;
 using Restourant.DataContext.Entities;
 
@@ -16,6 +17,8 @@ namespace Restaurant
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession();
+
             builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
             {
                 options.Password.RequiredLength = 4;
@@ -27,17 +30,25 @@ namespace Restaurant
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
                 options.Lockout.MaxFailedAccessAttempts = 5;
 
+                options.User.RequireUniqueEmail = true;
+
                 options.SignIn.RequireConfirmedEmail = true;
 
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
-            builder.Services.AddDbContext<AppDbContext>(option =>
+
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
-            builder.Services.AddScoped<DataInitializer>();
+
 
             builder.Services.AddTransient<IMailService, MailKitMailService>();
-            builder.Services.Configure<SuperAdmin>(builder.Configuration.GetSection("SuperAdmin"));
+
+            FilePathConstants.CategoryPath = Path.Combine(builder.Environment.WebRootPath, "images", "category");
+            FilePathConstants.MenuIteamPath = Path.Combine(builder.Environment.WebRootPath, "images", "menuItem");
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -56,15 +67,15 @@ namespace Restaurant
             app.UseAuthorization();
 
             app.MapControllerRoute(
-            name: "areas",
-            pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
-            
+                name: "area",
+                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+                );
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
             app.Run();
-
         }
+
     }
+    
 }

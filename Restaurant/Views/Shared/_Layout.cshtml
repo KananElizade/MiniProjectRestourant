@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
 
@@ -149,14 +150,14 @@
                                     <ul class="dropdown-menu">
                                       
                                         <li>
-                                            <a asp-controller="Menu"asp-action="Index"> Our menu </a>
+                                            <a asp-controller="Menu"asp-action="index"> Our menu </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- li end -->
 
                                 <li>
-                                    <a class="menu-item" asp-controller="Reservation"asp-action="index">book a table</a>
+                                    <a class="menu-item" asp-controller="Reservation"asp-action="create">book a table</a>
                                 </li>
 
                                 <!-- Features Menu-->
@@ -449,7 +450,7 @@
                                     <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Online shop</a>
                                     <ul class="dropdown-menu mega-dropdown-menu">
                                        <li>
-                                           <a asp-controller="shop"asp-action="onlineshop">Shop online<</a>
+                                           <a asp-controller="shop"asp-action="index">Shop<</a>
                                        </li>
                                     </ul>
                                     <!-- .mega-dropdown-menu end -->
@@ -467,18 +468,7 @@
                                         <ul class="list-unstyled">
                                             <li>
                                                 <img class="img-responsive" src="~/assets/images/shop/thumb/6.jpg" alt="product" />
-                                                <div class="product-meta">
-                                                    <h5 class="product-title">Red Tape Shoes</h5>
-                                                    <p class="product-price">1 x $ 34.00</p>
-                                                </div>
-                                                <a class="cart-cancel" href="#">cancel</a>
-                                            </li>
-                                            <li>
-                                                <img class="img-responsive" src="~/assets/images/shop/thumb/7.jpg" alt="product" />
-                                                <div class="product-meta">
-                                                    <h5 class="product-title">Brave Sweater</h5>
-                                                    <p class="product-price">1 x $ 32.00</p>
-                                                </div>
+                                           
                                                 <a class="cart-cancel" href="#">cancel</a>
                                             </li>
                                         </ul>
@@ -488,13 +478,13 @@
                                             Subtotal:
                                         </div>
                                         <div class="total-price">
-                                            $73.00
+											
                                         </div>
                                     </div>
                                     <div class="clearfix">
                                     </div>
                                     <div class="cart--control">
-                                        <a class="btn btn--primary btn--block btn--rounded mb-10" href="#">view cart</a>
+                                        <a class="btn btn--primary btn--block btn--rounded mb-10" asp-controller="Cart"asp-action="index">view cart</a>
                                         <a class="btn btn--white btn--bordered btn--rounded btn--block" href="#">Checkout</a>
                                     </div>
                                 </div>
@@ -614,7 +604,11 @@
         </header>
         <!-- Hero Section
         ====================================== -->
+
         @RenderBody();
+  
+            <!-- .col-md-8 end -->
+
         <footer id="footer" class="footer footer-1 text-center">
             <div class="divider--shape-dark"></div>
             <!-- Widget Section

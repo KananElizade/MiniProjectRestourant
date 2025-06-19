@@ -3,5 +3,6 @@
     public class FilePathConstants
     {
         public static string MenuIteamPath = "";
+        public static string CategoryPath = "";
     }
 }

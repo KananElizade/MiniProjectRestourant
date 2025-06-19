@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6jA6SFdPwZc=",
+  "dgSpecHash": "I74JMiOJGQo=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\Restourant.csproj",
+  "projectFilePath": "D:\\Projects\\MiniProjectRestourant\\Restaurant\\Restourant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victus\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Victus\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

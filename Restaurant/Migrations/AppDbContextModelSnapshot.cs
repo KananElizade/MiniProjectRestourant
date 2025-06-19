@@ -260,6 +260,9 @@ namespace Restourant.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsAvailable")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsAvaliable")
                         .HasColumnType("bit");
 
@@ -363,18 +366,22 @@ namespace Restourant.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("FullName")
+                    b.Property<string>("GuestFirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PhoneNumber")
+                    b.Property<string>("GuestLastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ReservationEnd")
+                    b.Property<string>("GuestPhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ReservationEndTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ReservationStart")
+                    b.Property<DateTime>("ReservationStartTime")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("TableId")

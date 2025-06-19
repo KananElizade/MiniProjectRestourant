@@ -10,13 +10,14 @@ namespace Restourant.Controllers
     public class ReservationController : Controller
     {
         private readonly AppDbContext _context;
-
+        private readonly ReserveTable reserveTable;
         public ReservationController(AppDbContext context)
         {
             _context = context;
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public async Task<IActionResult> Create(int people, DateTime day, string time, string firstName, string lastName, string phoneNumber)
         {
             Console.WriteLine("Reservation Create POST method called");
@@ -69,6 +70,6 @@ namespace Restourant.Controllers
             TempData["SuccessMessage"] = "Reservation successfully completed!";
             return Json(new { success = true, message = "Reservation successfully completed!" });
         }
-
+       
     }
 }

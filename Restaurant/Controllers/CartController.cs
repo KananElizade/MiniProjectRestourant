@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Restourant.Models;
+using Restourant.Models;
 
-namespace RestaurantMVC.Controllers;
+namespace Restourant.Controllers;
 
 public class CartController : Controller
 {

@@ -7924,8 +7924,8 @@
     },
     "Mailing/1.0.0": {
       "type": "project",
-      "path": "../../../Pb304PetShop/Pb304PetShop/Mailing/Mailing.csproj",
-      "msbuildProject": "../../../Pb304PetShop/Pb304PetShop/Mailing/Mailing.csproj"
+      "path": "../Mailing/Mailing.csproj",
+      "msbuildProject": "../Mailing/Mailing.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7945,11 +7945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\Restourant.csproj",
+      "projectUniqueName": "D:\\Projects\\MiniProjectRestourant\\Restaurant\\Restourant.csproj",
       "projectName": "Restourant",
-      "projectPath": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\Restourant.csproj",
+      "projectPath": "D:\\Projects\\MiniProjectRestourant\\Restaurant\\Restourant.csproj",
       "packagesPath": "C:\\Users\\Victus\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Restaurant\\Restaurant\\Restaurant\\obj\\",
+      "outputPath": "D:\\Projects\\MiniProjectRestourant\\Restaurant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7970,8 +7970,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\Pb304PetShop\\Pb304PetShop\\Mailing\\Mailing.csproj": {
-              "projectPath": "D:\\Projects\\Pb304PetShop\\Pb304PetShop\\Mailing\\Mailing.csproj"
+            "D:\\Projects\\MiniProjectRestourant\\Mailing\\Mailing.csproj": {
+              "projectPath": "D:\\Projects\\MiniProjectRestourant\\Mailing\\Mailing.csproj"
             }
           }
         }

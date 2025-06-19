@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Restourant.DataContext;
+using Restourant.Models;
+using Restourant.DataContext;
+using Restourant.Models;
 
-namespace Restaurant.Controllers
+namespace Restourant.Controllers
 {
-    [Authorize]
     public class ShopController : Controller
     {
         private readonly AppDbContext _dbContext;
@@ -14,39 +16,33 @@ namespace Restaurant.Controllers
         {
             _dbContext = dbContext;
         }
-
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int pageSize = 8)
         {
-            ViewBag.ProductCount = await _dbContext.MenuItems.CountAsync();
+            var totalItems = await _dbContext.MenuItems.CountAsync();
 
-            var MenuItems = await _dbContext.MenuItems.Take(Range.All).ToListAsync();
+            var menuItems = await _dbContext.MenuItems
+                .Include(x => x.Category)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
 
-            return View(MenuItems);
+            var categories = await _dbContext.Categories.ToListAsync();
+
+            var viewModel = new ShopViewModel
+            {
+                MenuItems = menuItems,
+                Categories = categories,
+                CurrentPage = page,
+                TotalPages = (int)Math.Ceiling((double)totalItems / pageSize)
+            };
+
+            return View(viewModel);
         }
-
-        //[HttpPost]
-        //public async Task<IActionResult> Partial([FromBody]RequestModel requestModel)
-        //{
-        //    var MenuItems = await _dbContext.MenuItems.Skip(requestModel.StartFrom).Take(6).ToListAsync();
-
-        //    return PartialView("_ProductPartialView", MenuItems);
-        //}
-
-        [HttpPost]
-        public async Task<IActionResult> Partial([FromBody] RequestModel requestModel)
+        public class RequestModel
         {
-            var MenuItems = await _dbContext.MenuItems.Skip(requestModel.StartFrom).Take(6).ToListAsync();
-
-            return Json(MenuItems);
+            public int Id { get; set; }
+            public int StartFrom { get; set; }
+            public string? ImageName { get; set; }
         }
-        
-
-    }
-
-    public class RequestModel
-    {
-        public int Id { get; set; }
-        public int StartFrom { get; set; }
-        public string? ImageName { get; set; }
     }
 }

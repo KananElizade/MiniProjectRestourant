@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation Success</title>
+    <style>
+        body {
+        background: #23272f;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+
+        header {
+        background: #181b20;
+        color: #fff;
+        padding: 18px 0;
+        text-align: center;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .congrats-container {
+        max-width: 400px;
+        margin: 80px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        text-align: center;
+        padding: 40px 30px 30px 30px;
+        opacity: 0;
+        transform: translateY(40px);
+        animation: fadeInUp 1s ease-out forwards;
+        }
+
+        {
+        opacity: 1;
+        transform: translateY(0);
+        }
+
+        }
+
+        .congrats-icon {
+        font-size: 60px;
+        color: #4caf50;
+        margin-bottom: 20px;
+        animation: bounce 1.2s 0.2s cubic-bezier(.68,-0.55,.27,1.55) both;
+        }
+
+        {
+        transform: scale(0.7);
+        }
+
+        60% {
+        transform: scale(1.2);
+        }
+
+        80% {
+        transform: scale(0.95);
+        }
+
+        100% {
+        transform: scale(1);
+        }
+
+        }
+
+        h2 {
+        color: #333;
+        margin-bottom: 10px;
+        }
+
+        p {
+        color: #666;
+        margin-bottom: 30px;
+        }
+
+        .btn-home {
+        background: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 12px 32px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.2s;
+        }
+
+        .btn-home:hover {
+        background: #388e3c;
+        }
+    </style>
+</head>
+</html>﻿
+<section id="reservation6" class="reservation reservation-2 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="reservation-form text-center">
+                    <div class="reservation--dec mb-4">
+                        You can book a table online easily in just a couple of minutes.
+                    </div>
+                    <form id="reservationForm" asp-controller="Reservation" asp-action="Create" method="post" class="reservationForm mb-0">
+                        <div class="row gy-3">
+                            <div class="col-md-4">
+                                <input type="number"
+                                name="people"
+                                class="form-control"
+                                min="1"
+                                max="20"
+                                placeholder="Number of people"
+                                required />
+                            </div>
+                            <div class="col-md-4">
+                                <input type="date"
+                                name="day"
+                                class="form-control"
+                                required
+                                min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            </div>
+                            <div class="col-md-4">
+                                <input type="time"
+                                name="time"
+                                class="form-control"
+                                required />
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text"
+                                name="firstName"
+                                class="form-control"
+                                placeholder="First Name"
+                                required />
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text"
+                                name="lastName"
+                                class="form-control"
+                                placeholder="Last Name"
+                                required />
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel"
+                                name="phoneNumber"
+                                class="form-control"
+                                placeholder="Phone Number"
+                                required />
+                            </div>
+
+                            <div class="col-md-12 mt-3">
+                                <button type="submit" class="btn btn--secondary btn--block">Find Table</button>
+                            </div>
+
+                            <div class="col-md-12 mt-3">
+                                @if (TempData["SuccessMessage"] != null)
+                                {
+                                    <div class="alert alert-success">
+                                        @TempData["SuccessMessage"]
+                                    </div>
+                                }
+                                @if (!ViewData.ModelState.IsValid)
+                                {
+                                    <div class="alert alert-danger">
+                                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                        {
+                                            <p>@error.ErrorMessage</p>
+                                        }
+                                    </div>
+                                }
+                           
+                                
+                            </div>
+                        </div>
+                      
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        $("#reservationForm").submit(function (e) {
+            e.preventDefault();
+
+            var formData = $(this).serialize();
+
+            $.ajax({
+                type: "POST",
+                url: "/Reservation/Create",
+                data: formData,
+                success: function (response) {
+                    alert(response.message);
+                    $("#reservationForm")[0].reset();
+                },
+                error: function (xhr) {
+                    alert("Reservation failed: " + xhr.responseText);
+                }
+            });
+        });
+    });
+</script>
